@@ -1,0 +1,400 @@
+/** RESET VALEUR **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/** ---------------- FONTS ------------------------ **/
+/** Roboto-Black **/
+@font-face {
+    font-family:"RobotoBlack";
+    src: url("../fonts/Roboto/Roboto-Black.ttf");
+}
+/** Roboto-Regular **/
+@font-face {
+    font-family:"RobotoRegular";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+/** Roboto-Medium **/
+@font-face {
+    font-family:"RobotoMedium";
+    src: url("../fonts/Roboto/Roboto-Medium.ttf");
+}
+/** ---------------- HEADER ------------------------ **/
+/** NAV **/
+.navleft {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    line-height: 24px;
+    height: 60px;
+    width: 2000px;
+    margin-left: 28rem;
+    margin-top: 24px;
+}
+.row-nav-one {
+    margin-left: -15rem;
+    margin-right: 15rem;
+}
+.navleft a:nth-child(1){
+    color: #505F98;
+    margin-right: 62px;
+    font-family: "RobotoRegular";
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
+.navleft a:nth-child(2){
+    color: #505F98;
+    margin-right: 62px;
+    font-family: "RobotoRegular";
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
+.navleft p:nth-child(2){
+    color: #505F98;
+    font-family: "RobotoBlack";
+    font-size: 26px;
+    line-height: 38px;
+    text-decoration: none;
+    margin-right: 20rem;
+}
+.row-nav-one {
+    color: #505F98;
+    font-family: "RobotoRegular";
+    font-size: 14px;
+    line-height: 24px;
+}
+.row-nav-one a:nth-child(3){
+    text-decoration: none;
+}
+.buy{
+    background-color: #111B47;
+    color: #ffffff;
+    font-family: "RobotoMedium";
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    width: 160px;
+    height: 26px;
+    text-align: center;
+}
+/** ---------------- MAIN ------------------------ **/
+/** SECTION 1 **/
+.block1 {
+    margin-top: 9rem;
+    margin-left: 20rem;
+    width: 1700px;
+}
+.row {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container-mainup {
+    height: 421px;
+    width: 539px;
+    margin-right: 8.5rem;
+}
+.container-img {
+    margin-right: -7rem;
+    margin-top: -5rem;
+}
+.row-titremain-txt {
+    height: 316px;
+    width: 600px;
+}
+.row-titremain-txt h1{
+    font-size: 50px;
+    font-family: "RobotoMedium";
+    color: #091133;
+    width: 639px;
+    margin-top: 7rem;
+}
+.row-titremain-txt p{
+    font-size: 18px;
+    font-family: "RobotoRegular";
+    color: #505F98;
+    line-height: 30px;
+    margin-top: 2rem;
+}
+.buttons {
+    margin-top: 50px;
+    display: flex;
+}
+.buttons p:first-child{
+    border-radius: 2px;
+    padding: 0.5rem 2.5rem;
+    color: #FFFFFF;
+    background-color: #111B47;
+    font-family: "RobotoMedium";
+    font-size: 16px;
+    line-height: 26px;
+}
+.buttons p:last-child{
+    margin-left: 10rem;
+    font-family: "RobotoMedium";
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 2px;
+    padding: 0.5rem 2.5rem;
+    border: #091133 solid;
+}
+/** SECTION 2 **/
+.block2 {
+    margin-left: 38rem;
+}
+.container-imgdown img {
+    width: 515px;
+    height: 824px; 
+    margin-top: 18rem;
+    margin-bottom: 66px;
+}
+.row-description{
+    margin-left: 42rem;
+    margin-top: -45rem;
+    width: 675px;
+    height: 202px;
+}
+.row-description h2{ 
+    font-size: 36px;
+    font-family: "RobotoMedium";
+    color: #091133;
+    background-color: white;
+    line-height: 48px;
+}
+.row-description p{ 
+    margin-top: 38px;
+    font-size: 16px;
+    font-family: "RobotoRegular";
+    color: #6F7CB2;
+    background-color: white;
+    line-height: 26px;
+}
+/** CARDS **/
+.container-card {
+    margin-top: 5rem;
+    margin-left: 47rem;
+}
+/** CARD 1 **/
+.rowcard-one {
+    height: 121px;
+    width: 315px;
+}
+.rowcard-one img{
+    width: 36px;
+    height: 36px;
+}
+/** TITRE **/
+.rowcard-one p:nth-child(2){
+    color: #091133;
+    font-size: 16px;
+    font-family: "RobotoMedium";
+    line-height: 26px;
+    width: 325px;
+    height: 26px;
+}
+/** TXT **/
+.rowcard-one p:nth-child(3){
+    color: #5D6970;
+    font-size: 12px;
+    font-family: "RobotoRegular";
+    line-height: 18px;
+    width: 325px;
+    height: 36px;
+}
+/** CARD 2 **/
+.rowcard-two {
+    height: 121px;
+    width: 315px;
+}
+.rowcard-two img{
+    width: 36px;
+    height: 36px;
+}
+/** TITRE **/
+.rowcard-two p:nth-child(2){
+    color: #091133;
+    font-size: 16px;
+    font-family: "RobotoMedium";
+    line-height: 26px;
+    width: 325px;
+    height: 26px;
+}
+/** TXT **/
+.rowcard-two p:nth-child(3){
+    color: #5D6970;
+    font-size: 12px;
+    font-family: "RobotoRegular";
+    line-height: 18px;
+    width: 325px;
+    height: 36px;
+}
+/** CARD 3 **/
+.rowcard-three {
+    height: 121px;
+    width: 315px;
+}
+.rowcard-three img{
+    width: 36px;
+    height: 36px;
+}
+/** TITRE **/
+.rowcard-three p:nth-child(2){
+    color: #091133;
+    font-size: 16px;
+    font-family: "RobotoMedium";
+    line-height: 26px;
+    width: 325px;
+    height: 26px;
+}
+/** TXT **/
+.rowcard-three p:nth-child(3){
+    color: #5D6970;
+    font-size: 12px;
+    font-family: "RobotoRegular";
+    line-height: 18px;
+    width: 325px;
+    height: 36px;
+}
+/** CARD 4 **/
+.rowcard-four {
+    height: 121px;
+    width: 315px;
+}
+.rowcard-four img{
+    width: 36px;
+    height: 36px;
+}
+/** TITRE **/
+.rowcard-four p:nth-child(2){
+    color: #091133;
+    font-size: 16px;
+    font-family: "RobotoMedium";
+    line-height: 26px;
+    width: 325px;
+    height: 26px;
+}
+/** TXT **/
+.rowcard-four p:nth-child(3){
+    color: #5D6970;
+    font-size: 12px;
+    font-family: "RobotoRegular";
+    line-height: 18px;
+    width: 325px;
+    height: 36px;
+}
+/** CARDS ONE ET TWO **/
+.move-cards-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.rowcard-one {
+    margin-left: -5rem;
+}
+.rowcard-one {
+    margin-right: 35px;
+}
+/** CARDS THREE ET FOUR **/
+.move-cards-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.rowcard-three {
+    margin-left: -5rem;
+}
+.rowcard-three{
+    margin-right: 35px;
+}
+/** ---------------- FOOTER ------------------------ **/
+footer {
+    background-color: #E7ECFF;
+    width: auto;
+    height: 216px;
+    margin-top: 15rem;
+}
+/** BLOCK 1 **/
+.compagny {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+.compagny p:nth-child(1){
+    margin-left: 50rem;
+    color: #939EA4;
+    font-size: 14px;
+    font-family: "RobotoMedium";
+    margin-top: 74px;
+}
+.compagny p:nth-child(2){
+    margin-left: -40rem;
+    color: #37447E;
+    font-size: 26px;
+    font-family: "RobotoBlack";
+    margin-right: -40rem;
+    margin-top: 80px;
+}
+.compagny p:nth-child(3){
+    padding-top: 5px;
+    margin-top: 74px;
+    margin-right: 40rem;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "RobotoMedium";
+    line-height: 18px;
+    background-color: #111B47;
+    width: 109px;
+    height: 30px;
+    text-align: center;
+}
+/** LIGNE **/
+.vide-line {
+    border: #CDD1D4 solid 1px;
+    width: 1110px;
+    margin-left: 50rem;
+    margin-top: 3.5rem;
+}
+/** BLOCK 3 **/
+.contact {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50rem;
+    margin-top: 1rem;
+}
+.contact p{
+    color: #929ECC;
+    font-size: 14px;
+    font-family: "RobotoRegular";
+    line-height: 24px;
+}
+.contact p:nth-child(1){
+    margin-right: 60px;
+}
+.contact p:nth-child(2){
+    margin-right: 60px;
+}
+.contact p:nth-child(3){
+    margin-right: 41rem;
+}
+/** ESPACEMENT IMG **/
+.contact img:nth-child(4){
+    margin-right: 30px;
+    height: 16px;
+    width: 16px;
+}
+.contact img:nth-child(5){
+    margin-right: 30px;
+    height: 16px;
+    width: 16px;
+}
+.contact img:nth-child(6){
+    margin-right: 30px;
+    height: 16px;
+    width: 16px;
+}
+.contact img:nth-child(7){
+    margin-right: 30px;
+}
